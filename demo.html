@@ -1,0 +1,36 @@
+<html>
+<head>
+</head>
+<body>
+<span style="color:red"><h1>E.</span>
+<span style="color:blue">P</span>
+<span style="color:green">R</span>
+<span style="color:hotpink">A</span>
+<span style="color:yellow">V</span>
+<span style="color:orange">A</span>
+<span style="color:brown">L</span>
+<span style="color:black">I</span>
+<span style="color:dullblue">K</span>
+<span style="color:cyan">A</h1></span>
+<h1>my first javascript</h1>
+<button type="button" onClick="document.getElementById('demo').innerHTML=Date()">click me to display date and time.</button>
+<p id="demo">javascript can change HTML content.</p>
+<button type="button" onClick="document.getElementById('demo').innerHTML='hello javascript!'">CLICKME!</button>
+<div id="page">
+<h1 style="text.decoration:underline">clock using javascript</h1>
+<button onClick="timer()">show MyClock</button>
+</h1>
+<h1>DigitalClock</h1>
+<div id="showClockHere">
+<h1 id="tt">Time Test </h1>
+</div>
+<script>
+functin timer(){
+                var t=new Date();
+                var myClock=document.getElementById("clock");
+                myClock.innerHTML=t.toLocaleTimeString();
+                setTimeOut(timer,1000);
+               }
+</script>
+</body>
+</html>
